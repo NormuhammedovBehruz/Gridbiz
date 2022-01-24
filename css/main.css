@@ -1,0 +1,269 @@
+/* Global */
+
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;800&display=swap);
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: "Open Sans", sans-serif;
+    background-color: #bdb9b9;
+    height: 100%;
+}
+
+.container {
+    max-width: 1300px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* Header */
+
+.site-header {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.sitenav-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sitenav-item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.sitenav-link {
+    font-family: "Opan Sans", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: rgb(219, 214, 214);
+    padding: 10px 111px;
+    text-decoration: none;
+    color: #333;
+    transition: 0.5s;
+    box-shadow: 0 0 10px 1px #888888;
+}
+
+.sitenav-link:hover {
+    background-color: #444;
+    color: #fff;
+}
+
+/* Main */
+
+.main-content {
+    flex-grow: 1;
+}
+
+.hero {
+    margin-bottom: 20px;
+}
+
+.hero-content-container {
+    display: flex;
+}
+
+.hero-content {
+    margin-right: 20px;
+}
+
+.heronav-list {
+    padding: 0;
+    margin: 0;
+}
+
+.heronav-item {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/pic1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1035px;
+    height: 596px;
+    list-style: none;
+    padding: 250px 0px 0px 50px;
+}
+
+.heronav-item-heading {
+    font-family: "Opan Sans", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.heronav-item-text {
+    font-family: "Opan Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.main-button {
+    font-family: "Opan Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: rgb(46, 44, 44);
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.div1 {
+    background-color: rgb(219, 214, 214);
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+.div-heading {
+    font-family: "Opan Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 70px;
+}
+
+.div-heding {
+    font-family: "Opan Sans", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.div-main-button {
+    font-family: "Opan Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: rgb(46, 44, 44);
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.div2 {
+    background-color: rgb(219, 214, 214);
+    padding: 40px;
+}
+
+/* Section */
+
+.heroo {
+    margin-bottom: 20px;
+}
+
+.heroo-content-container {
+    display: flex;
+}
+
+.hero-content1 {
+    background-color: rgb(219, 214, 214);
+    padding: 20px 30px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.hero-content2 {
+    background-color: rgb(219, 214, 214);
+    padding: 20px 30px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.hero-content3 {
+    background-color: rgb(219, 214, 214);
+    padding: 20px 30px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.hero-content4 {
+    background-color: rgb(219, 214, 214);
+    padding: 20px 30px;
+    text-align: center;
+}
+
+/* Section */
+
+.heero {
+    margin-bottom: 20px;
+}
+
+.heero-contentt {
+    display: flex;
+    background-color: rgb(219, 214, 214);
+    padding: 50px;
+}
+
+.heero-content {
+    margin-right: 30px;
+}
+
+.heero-content2-heading {
+    font-family: "Opan Sans", sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.hero-content-text {
+    font-family: "Opan Sans", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.main-button {
+    font-family: "Opan Sans", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+/* Section */
+
+.footer-gallery-main-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-bottom: 60px;
+}
+
+.footer-gallery-img {
+    width: 100%;
+}
+
+/* Footer */    
+
+.site-footer-container {
+    margin-bottom: 60px;
+}
+
+.footer-content {
+    background-color: #333;
+    padding: 2px;
+    text-align: center;
+}
+
+.footer-content-heading {
+    font-family: "Opan Sans", sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    color: #fff;
+}
